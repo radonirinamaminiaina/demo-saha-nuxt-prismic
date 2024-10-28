@@ -1,0 +1,27 @@
+{
+  "id": "blog_page",
+  "json": {
+    "Main": {
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Title",
+          "placeholder": "Title"
+        }
+      },
+      "content": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Content",
+          "placeholder": "Content"
+        }
+      }
+    }
+  },
+  "label": "blog_page",
+  "repeatable": false,
+  "status": true,
+  "format": "custom"
+}
